@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sandbox", "sandbox\sandbox.vcxproj", "{7FE7A414-C515-4D2A-8958-5B02AB12A51F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{364CD7F5-03DC-4E81-AAD0-E31380D2B0CA} = {364CD7F5-03DC-4E81-AAD0-E31380D2B0CA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "halcyon", "halcyon\halcyon.vcxproj", "{364CD7F5-03DC-4E81-AAD0-E31380D2B0CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FE7A414-C515-4D2A-8958-5B02AB12A51F}.Debug|x64.ActiveCfg = Debug|x64
+		{7FE7A414-C515-4D2A-8958-5B02AB12A51F}.Debug|x64.Build.0 = Debug|x64
+		{7FE7A414-C515-4D2A-8958-5B02AB12A51F}.Release|x64.ActiveCfg = Release|x64
+		{7FE7A414-C515-4D2A-8958-5B02AB12A51F}.Release|x64.Build.0 = Release|x64
+		{364CD7F5-03DC-4E81-AAD0-E31380D2B0CA}.Debug|x64.ActiveCfg = Debug|x64
+		{364CD7F5-03DC-4E81-AAD0-E31380D2B0CA}.Debug|x64.Build.0 = Debug|x64
+		{364CD7F5-03DC-4E81-AAD0-E31380D2B0CA}.Release|x64.ActiveCfg = Debug|x64
+		{364CD7F5-03DC-4E81-AAD0-E31380D2B0CA}.Release|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE996A35-5890-4AFB-8357-D4919C371176}
+	EndGlobalSection
+EndGlobal

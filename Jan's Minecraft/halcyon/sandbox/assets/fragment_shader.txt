@@ -1,0 +1,15 @@
+// fragment_shader.txt
+
+#version 330
+
+uniform sampler2D u_diffuse;
+
+in vec2 out_texcoord;
+
+out vec4 frag_color;
+
+void main()
+{
+	vec4 color = texture(u_diffuse, out_texcoord);
+	frag_color = color;
+}

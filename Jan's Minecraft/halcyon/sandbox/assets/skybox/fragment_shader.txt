@@ -1,0 +1,14 @@
+// skybox_fragment_shader.txt
+
+#version 330
+
+uniform samplerCube u_cubemap;
+
+in vec3 out_texcoord;
+
+out vec4 frag_color;
+
+void main()
+{
+	frag_color = texture(u_cubemap, out_texcoord);
+}
